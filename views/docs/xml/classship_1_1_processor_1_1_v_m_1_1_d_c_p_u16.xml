@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16" kind="class" language="C#" prot="public">
+    <compoundname>ship::Processor::VM::DCPU16</compoundname>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aea7ebf7c3ba608e33994c1a350f97568" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ship.Processor.VM.DCPU16.DCPU16</definition>
+        <argsstring>()</argsstring>
+        <name>DCPU16</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.DCPU16</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="8" column="13" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1adf72535d9ce16be62eaf3d02db309b2b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ship.Processor.VM.DCPU16.PedanticVariable</definition>
+        <argsstring>(VMState cpu, ushort code, bool isA)</argsstring>
+        <name>PedanticVariable</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.PedanticVariable</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isA</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="9" column="26" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="9" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a7863b998e3799708e75b4df1c0cad22d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.Reset</definition>
+        <argsstring>(VMState cpu)</argsstring>
+        <name>Reset</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.Reset</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <briefdescription>
+<para>Resets the processor to its default state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="85" column="24" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="85" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a5b017b21f5e11e7263f775814766084e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.RegisterHardware</definition>
+        <argsstring>(VMState cpu, IHardware hw)</argsstring>
+        <name>RegisterHardware</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.RegisterHardware</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" kindref="compound">IHardware</ref></type>
+          <declname>hw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="273" column="24" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="273" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a22b85139c1d70d67f0d3896f699fce3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.QueueInterrupt</definition>
+        <argsstring>(VMState cpu, Action&lt; VMState &gt; func)</argsstring>
+        <name>QueueInterrupt</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.QueueInterrupt</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref> &gt;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+<para>The queueInterrupt. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cpu</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The funcAction&lt;Processor&gt;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="327" column="24" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="327" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a1dd146d6969ad1e26d8ff66834b305c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint ship.Processor.VM.DCPU16.Step</definition>
+        <argsstring>(VMState cpu)</argsstring>
+        <name>Step</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.Step</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <briefdescription>
+<para>The Step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The uint</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="386" column="24" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="386" bodyend="907"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa618bf5c19757dd0af39670a5e8b7f87" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort ship.Processor.VM.DCPU16.GetValue</definition>
+        <argsstring>(VMState cpu, bool isA, ushort code, bool noChange=false)</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.GetValue</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isA</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noChange</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>The GetValue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cpu</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The is_abool</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The codeushort</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noChange</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The no_changebool</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ushort</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="110" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="110" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a959606aab330376f27124ac29f5ce1dd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.SetValue</definition>
+        <argsstring>(VMState cpu, ushort code, ushort value)</argsstring>
+        <name>SetValue</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.SetValue</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>The SetValue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cpu</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The codeushort</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The valueushort</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="184" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="184" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa8c1575292019bd7bfdb3b238496491e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.AddLogEntry</definition>
+        <argsstring>(VMState cpu, params string[] entries)</argsstring>
+        <name>AddLogEntry</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.AddLogEntry</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>entries</declname>
+        </param>
+        <briefdescription>
+<para>The AddLogEntry(cpu,. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cpu</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>entries</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entries&lt;see&gt; &lt;cref&gt;string[]&lt;/cref&gt; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="287" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="287" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1abf7bd3fa26f34e51791b83d158bb7414" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort ship.Processor.VM.DCPU16.ExtendSign</definition>
+        <argsstring>(ushort word)</argsstring>
+        <name>ExtendSign</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.ExtendSign</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>The extendSign. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>word</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The wordushort</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ushort</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="299" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="299" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a6201ce9944de647fa4e08e3b6c711fee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.SetInstructionInfo</definition>
+        <argsstring>(VMState cpu, string mnemonic, ushort op, ushort b, ushort a)</argsstring>
+        <name>SetInstructionInfo</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.SetInstructionInfo</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mnemonic</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>The setInstructionInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cpu</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mnemonic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mnemonicstring</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>op</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The opushort</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bushort</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The aushort</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="317" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a0bcf91b56de1cf3deedd08b67aadcd24" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ship.Processor.VM.DCPU16.TriggerQueuedInterrupt</definition>
+        <argsstring>(VMState cpu)</argsstring>
+        <name>TriggerQueuedInterrupt</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.TriggerQueuedInterrupt</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <briefdescription>
+<para>The triggerQueuedInterrupt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="340" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="340" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a9b22aa8a2096fcedf929db04d3b97472" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort ship.Processor.VM.DCPU16.Skip</definition>
+        <argsstring>(VMState cpu)</argsstring>
+        <name>Skip</name>
+        <qualifiedname>ship.Processor.VM.DCPU16.Skip</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref></type>
+          <declname>cpu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="357" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="357" bodyend="380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><emphasis>Quick note: <bold>[next word]</bold> means you get the address from the next word (i have spent too much time pondering this at 3 AM) </emphasis> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="6" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" bodystart="7" bodyend="908"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa8c1575292019bd7bfdb3b238496491e" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>AddLogEntry</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aea7ebf7c3ba608e33994c1a350f97568" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>DCPU16</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1abf7bd3fa26f34e51791b83d158bb7414" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>ExtendSign</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa618bf5c19757dd0af39670a5e8b7f87" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>GetValue</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1adf72535d9ce16be62eaf3d02db309b2b" prot="public" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>PedanticVariable</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a22b85139c1d70d67f0d3896f699fce3e" prot="public" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>QueueInterrupt</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a5b017b21f5e11e7263f775814766084e" prot="public" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>RegisterHardware</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a7863b998e3799708e75b4df1c0cad22d" prot="public" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>Reset</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a6201ce9944de647fa4e08e3b6c711fee" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>SetInstructionInfo</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a959606aab330376f27124ac29f5ce1dd" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>SetValue</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a9b22aa8a2096fcedf929db04d3b97472" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>Skip</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a1dd146d6969ad1e26d8ff66834b305c1" prot="public" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>Step</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a0bcf91b56de1cf3deedd08b67aadcd24" prot="private" virt="non-virtual"><scope>ship::Processor::VM::DCPU16</scope><name>TriggerQueuedInterrupt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_hardware_8cs" kind="file" language="C#">
+    <compoundname>Hardware.cs</compoundname>
+    <innerclass refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" prot="public">ship::Processor::VM::IHardware</innerclass>
+    <innernamespace refid="namespaceship">ship</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor">ship::Processor</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_v_m">ship::Processor::VM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceship_1_1_processor_1_1_v_m" kindref="compound">ship.Processor.VM</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">HardwareQuery(uint<sp/>id,<sp/>uint<sp/>manufacturer,<sp/>ushort<sp/>version)<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>uint<sp/>Id<sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>uint<sp/>Manufacturer<sp/>=<sp/>manufacturer;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>ushort<sp/>Version<sp/>=<sp/>version;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" kindref="compound">IHardware</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1ab54bc5eb8ba9e25cdb16eb8d67e0ef39" kindref="member">Init</ref>(<ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref><sp/>cpu)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>HardwareQuery<sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a07907cd762b363a918b8f225aee8bb9e" kindref="member">GetHardwareInfo</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>ushort<sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a1068d023f31aa7bd0c6aaf6e4a46aecc" kindref="member">Interrupt</ref>(<ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref><sp/>cpu);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a60df70fe2e963affadf30bbb23daf258" kindref="member">Tick</ref>(<ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref><sp/>cpu)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a47406b7b95ac96e161d31302c0b89550" kindref="member">Cleanup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1adaa6f81b8b34f6cce0e1dea71bde2a71" kindref="member">MemorySet</ref>(ushort<sp/>addr,<sp/>ushort<sp/>val,<sp/><ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref><sp/>cpu)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a889d5ec25f6cd2d855be1cc7c007a7ee" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Hardware.cs"/>
+  </compounddef>
+</doxygen>

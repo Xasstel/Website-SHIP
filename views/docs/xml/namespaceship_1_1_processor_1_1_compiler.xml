@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceship_1_1_processor_1_1_compiler" kind="namespace" language="C#">
+    <compoundname>ship::Processor::Compiler</compoundname>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_assembler" prot="public">ship::Processor::Compiler::Assembler</innerclass>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_parser" prot="public">ship::Processor::Compiler::Parser</innerclass>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_compiler_1_1_passes">ship::Processor::Compiler::Passes</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221" prot="public" static="no" strong="yes">
+        <type>ushort</type>
+        <name>ArgumentType</name>
+        <qualifiedname>ship.Processor.Compiler.ArgumentType</qualifiedname>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ae1c4d7fb1eaf04a0b328575d970468f5" prot="public">
+          <name>IHaveNoFuckingClue</name>
+          <initializer>= 0xff</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a0ba7583639a274c434bbe6ef797115a4" prot="public">
+          <name>Register</name>
+          <initializer>= 0x0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ac2ab4c6a2c46688f68d7e6a0f1b82994" prot="public">
+          <name>RegisterPointer</name>
+          <initializer>= 0x8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ae80ce7955e87f92818a95ec9e040c9b9" prot="public">
+          <name>RegisterNextWordPointer</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ac1d1b35eda4ff239c4cf802f7a05a083" prot="public">
+          <name>StackManip</name>
+          <initializer>= 0x18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221af20d8464e684ffa631ec234ad859ac6e" prot="public">
+          <name>StackPeek</name>
+          <initializer>= 0x19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221acdf4ed0e7db1432e0633a409cddc2943" prot="public">
+          <name>StackPick</name>
+          <initializer>= 0x1A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a2d7154a899afecaafc246d206b1349bc" prot="public">
+          <name>StackPointer</name>
+          <initializer>= 0x1b</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a9481cc29b3c79b14b7ba9647d231b03c" prot="public">
+          <name>ProgramCounter</name>
+          <initializer>= 0x1c</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a5a35b5cb6fd88858dd38616bd233587a" prot="public">
+          <name>ExcessRegister</name>
+          <initializer>= 0x1d</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221aeb0f40b141569f8e4a4f09dc92601851" prot="public">
+          <name>NextWordPointer</name>
+          <initializer>= 0x1e</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a174ee6b039a82313489b52a668e28b7f" prot="public">
+          <name>NextWord</name>
+          <initializer>= 0x1f</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="21" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" bodystart="21" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" prot="public" static="no" strong="yes">
+        <type>ushort</type>
+        <name>Register</name>
+        <qualifiedname>ship.Processor.Compiler.Register</qualifiedname>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <initializer>= 0x0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <initializer>= 0x1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a0d61f8370cad1d412f80b84d143e1257" prot="public">
+          <name>C</name>
+          <initializer>= 0x2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <initializer>= 0x3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a57cec4137b614c87cb4e24a3d003a3e0" prot="public">
+          <name>Y</name>
+          <initializer>= 0x4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <initializer>= 0x5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62add7536794b63bf90eccfd37f9b147d7f" prot="public">
+          <name>I</name>
+          <initializer>= 0x6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62aff44570aca8241914870afbc310cdb85" prot="public">
+          <name>J</name>
+          <initializer>= 0x7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>MAKE SURE TO SUBSTRACT 1!!!!!!! </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="39" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" bodystart="39" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_compiler_1a3579e140a886fddec938c5a9eaaaebda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>record</type>
+        <definition>record ship.Processor.Compiler.OperationDecl</definition>
+        <argsstring>(int LineNumber)</argsstring>
+        <name>OperationDecl</name>
+        <qualifiedname>ship.Processor.Compiler.OperationDecl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LineNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="5" column="15" declfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" declline="5" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_compiler_1a534b23253a36682edce56bf9df2e163d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>record InstructionDecl(int LineNumber, OpcodeDecl Decl, ArgumentDecl[] ArgDecls) record LabelDecl(int LineNumber, string LabelName, ushort? Position) record</type>
+        <definition>record InstructionDecl(int LineNumber, OpcodeDecl Decl, ArgumentDecl[] ArgDecls) record LabelDecl(int LineNumber, string LabelName, ushort? Position) record ship.Processor.Compiler.OpcodeDecl</definition>
+        <argsstring>(string Name, bool Special, int ArgCount, int Id)</argsstring>
+        <name>OpcodeDecl</name>
+        <qualifiedname>ship.Processor.Compiler.OpcodeDecl</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Special</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ArgCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="8" column="15" declfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" declline="8" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_compiler_1ad4058b9f9ebc8e8776f29c44d5a4f58b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>record</type>
+        <definition>record ship.Processor.Compiler.ArgumentDecl</definition>
+        <argsstring>(ArgumentType Type, Register? Register, int ArgumentIndex, ushort? ImmediateValue, string? LabelID)</argsstring>
+        <name>ArgumentDecl</name>
+        <qualifiedname>ship.Processor.Compiler.ArgumentDecl</qualifiedname>
+        <param>
+          <type>ArgumentType</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref>?</type>
+          <declname>Register</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ArgumentIndex</declname>
+        </param>
+        <param>
+          <type>ushort?</type>
+          <declname>ImmediateValue</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>LabelID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="9" column="15" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_compiler_1aca4fe2bbafbc5464ca4299131fb5e4bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>record</type>
+        <definition>record ship.Processor.Compiler.PlusNextWordArg</definition>
+        <argsstring>(ushort? value, string? label, Register? reg)</argsstring>
+        <name>PlusNextWordArg</name>
+        <qualifiedname>ship.Processor.Compiler.PlusNextWordArg</qualifiedname>
+        <param>
+          <type>ushort?</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref>?</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="13" column="15" declfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" declline="13" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_compiler_1a0399f0b5f159b39c3a3a0bedc647745b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>record</type>
+        <definition>record ship.Processor.Compiler.ErrorDecl</definition>
+        <argsstring>(int line, string? Message)</argsstring>
+        <name>ErrorDecl</name>
+        <qualifiedname>ship.Processor.Compiler.ErrorDecl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>Message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" line="15" column="15" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

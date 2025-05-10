@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>ship::Processor::Compiler::Passes::IAsmPass</compoundname>
+    <derivedcompoundref refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass" prot="public" virt="non-virtual">ship.Processor.Compiler.Passes.AssemblePass</derivedcompoundref>
+    <derivedcompoundref refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass" prot="public" virt="non-virtual">ship.Processor.Compiler.Passes.CollectLabelsPass</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1a9a62be1b376126b767c5b9fa0045c64c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kindref="compound">Assembler</ref></type>
+        <definition>Assembler ship.Processor.Compiler.Passes.IAsmPass.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <qualifiedname>ship.Processor.Compiler.Passes.IAsmPass.Parent</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs" line="6" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1aa2039a8838b3bb9e242b3d9dba056810" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ship.Processor.Compiler.Passes.IAsmPass.Assemble</definition>
+        <argsstring>(ref OperationDecl[] operations)</argsstring>
+        <name>Assemble</name>
+        <qualifiedname>ship.Processor.Compiler.Passes.IAsmPass.Assemble</qualifiedname>
+        <param>
+          <type>ref OperationDecl[]</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs" line="8" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ship.Processor.Compiler.Passes.IAsmPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass"/>
+      </node>
+      <node id="2">
+        <label>ship.Processor.Compiler.Passes.AssemblePass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ship.Processor.Compiler.Passes.CollectLabelsPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ship.Processor.Compiler.Passes.IAsmPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ship.Processor.Compiler.Assembler</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_assembler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs" line="5" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1aa2039a8838b3bb9e242b3d9dba056810" prot="package" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::IAsmPass</scope><name>Assemble</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1a9a62be1b376126b767c5b9fa0045c64c" prot="protected" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::IAsmPass</scope><name>Parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

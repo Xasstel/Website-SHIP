@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_i_asm_pass_8cs" kind="file" language="C#">
+    <compoundname>IAsmPass.cs</compoundname>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" prot="public">ship::Processor::Compiler::Passes::IAsmPass</innerclass>
+    <innernamespace refid="namespaceship">ship</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor">ship::Processor</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_compiler">ship::Processor::Compiler</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_compiler_1_1_passes">ship::Processor::Compiler::Passes</innernamespace>
+    <innernamespace refid="namespace_system_1_1_reflection">System::Reflection</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Reflection;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceship_1_1_processor_1_1_compiler_1_1_passes" kindref="compound">ship.Processor.Compiler.Passes</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" kindref="compound">IAsmPass</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kindref="compound">Assembler</ref><sp/>Parent<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">!;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Assemble(ref<sp/>OperationDecl[]<sp/>operations);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/IAsmPass.cs"/>
+  </compounddef>
+</doxygen>

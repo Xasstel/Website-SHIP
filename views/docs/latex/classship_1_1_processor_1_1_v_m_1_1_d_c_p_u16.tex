@@ -1,0 +1,64 @@
+\doxysection{ship.\+Processor.\+VM.\+DCPU16 Class Reference}
+\hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16}{}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16}\index{ship.Processor.VM.DCPU16@{ship.Processor.VM.DCPU16}}
+
+
+{\itshape Quick note\+: {\bfseries{\mbox{[}next word\mbox{]}}} means you get the address from the next word (i have spent too much time pondering this at 3 AM) }  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_adf72535d9ce16be62eaf3d02db309b2b}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_adf72535d9ce16be62eaf3d02db309b2b} 
+static string {\bfseries Pedantic\+Variable} (\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} cpu, ushort code, bool isA)
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a7863b998e3799708e75b4df1c0cad22d}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a7863b998e3799708e75b4df1c0cad22d} 
+static void {\bfseries Reset} (\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} cpu)
+\begin{DoxyCompactList}\small\item\em Resets the processor to its default state. \end{DoxyCompactList}\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a5b017b21f5e11e7263f775814766084e}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a5b017b21f5e11e7263f775814766084e} 
+static void {\bfseries Register\+Hardware} (\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} cpu, \mbox{\hyperlink{interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware}{IHardware}} hw)
+\item 
+static void \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a22b85139c1d70d67f0d3896f699fce3e}{Queue\+Interrupt}} (\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} cpu, Action$<$ \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} $>$ func)
+\begin{DoxyCompactList}\small\item\em The queue\+Interrupt. \end{DoxyCompactList}\item 
+static uint \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a1dd146d6969ad1e26d8ff66834b305c1}{Step}} (\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} cpu)
+\begin{DoxyCompactList}\small\item\em The Step. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+{\itshape Quick note\+: {\bfseries{\mbox{[}next word\mbox{]}}} means you get the address from the next word (i have spent too much time pondering this at 3 AM) } 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a22b85139c1d70d67f0d3896f699fce3e}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a22b85139c1d70d67f0d3896f699fce3e} 
+\index{ship.Processor.VM.DCPU16@{ship.Processor.VM.DCPU16}!QueueInterrupt@{QueueInterrupt}}
+\index{QueueInterrupt@{QueueInterrupt}!ship.Processor.VM.DCPU16@{ship.Processor.VM.DCPU16}}
+\doxysubsubsection{\texorpdfstring{QueueInterrupt()}{QueueInterrupt()}}
+{\footnotesize\ttfamily static void ship.\+Processor.\+VM.\+DCPU16.\+Queue\+Interrupt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}}}]{cpu,  }\item[{Action$<$ \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} $>$}]{func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The queue\+Interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cpu} & \\
+\hline
+{\em func} & The funcAction$<$\+Processor$>$\\
+\hline
+\end{DoxyParams}
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a1dd146d6969ad1e26d8ff66834b305c1}\label{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_a1dd146d6969ad1e26d8ff66834b305c1} 
+\index{ship.Processor.VM.DCPU16@{ship.Processor.VM.DCPU16}!Step@{Step}}
+\index{Step@{Step}!ship.Processor.VM.DCPU16@{ship.Processor.VM.DCPU16}}
+\doxysubsubsection{\texorpdfstring{Step()}{Step()}}
+{\footnotesize\ttfamily static uint ship.\+Processor.\+VM.\+DCPU16.\+Step (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}}}]{cpu }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The Step. 
+
+\begin{DoxyReturn}{Returns}
+The uint
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/\+Downloads/final-\/project-\/name-\/vinogradov-\/team-\/feature-\/invsys/ship.\+Processor/\+VM/DCPU16.\+cs\end{DoxyCompactItemize}

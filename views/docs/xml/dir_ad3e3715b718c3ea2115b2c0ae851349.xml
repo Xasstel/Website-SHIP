@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_ad3e3715b718c3ea2115b2c0ae851349" kind="dir">
+    <compoundname>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes</compoundname>
+    <innerfile refid="_assemble_pass_8cs">AssemblePass.cs</innerfile>
+    <innerfile refid="_collect_labels_pass_8cs">CollectLabelsPass.cs</innerfile>
+    <innerfile refid="_i_asm_pass_8cs">IAsmPass.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/"/>
+  </compounddef>
+</doxygen>

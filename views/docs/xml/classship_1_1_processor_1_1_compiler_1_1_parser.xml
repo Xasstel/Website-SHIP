@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_compiler_1_1_parser" kind="class" language="C#" prot="public">
+    <compoundname>ship::Processor::Compiler::Parser</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_parser_1a2e3790614192941211aefdbc7628fde9" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kindref="compound">Assembler</ref></type>
+        <definition>readonly Assembler ship.Processor.Compiler.Parser._parent</definition>
+        <argsstring></argsstring>
+        <name>_parent</name>
+        <qualifiedname>ship.Processor.Compiler.Parser._parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="6" column="32" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1a8fb85cab9dc99ecd46cec0a88e8167b5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ship.Processor.Compiler.Parser.Parser</definition>
+        <argsstring>(Assembler parent)</argsstring>
+        <name>Parser</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.Parser</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kindref="compound">Assembler</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="8" column="14" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="8" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1a43e6cba27fc5c539d67fd2ecef0b2727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OperationDecl[]</type>
+        <definition>OperationDecl[] ship.Processor.Compiler.Parser.ScanFile</definition>
+        <argsstring>(string[] lines)</argsstring>
+        <name>ScanFile</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.ScanFile</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="12" column="26" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="12" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1aef98d1d1eba33b43afb45eb5a1045436" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OperationDecl</type>
+        <definition>OperationDecl ship.Processor.Compiler.Parser.ScanLine</definition>
+        <argsstring>(string line, int lineNumber)</argsstring>
+        <name>ScanLine</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.ScanLine</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="25" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="25" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1a08b502854eedd93d0b3f7b3bed791236" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArgumentDecl</type>
+        <definition>ArgumentDecl ship.Processor.Compiler.Parser.ScanArgument</definition>
+        <argsstring>(string arg, int lineNumber, int position)</argsstring>
+        <name>ScanArgument</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.ScanArgument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="93" column="26" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="93" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1a1b98cb1824c3c4ebf0d779a172f18250" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? ushort</type>
+        <definition>static ? ushort ship.Processor.Compiler.Parser.ParseNumber</definition>
+        <argsstring>(string arg)</argsstring>
+        <name>ParseNumber</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.ParseNumber</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="237" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="237" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_parser_1ab769a7ab4245e2daf10ab1791ffe1782" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PlusNextWordArg</type>
+        <definition>static PlusNextWordArg ship.Processor.Compiler.Parser.scanNextWordArg</definition>
+        <argsstring>(string arg)</argsstring>
+        <name>scanNextWordArg</name>
+        <qualifiedname>ship.Processor.Compiler.Parser.scanNextWordArg</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="264" column="36" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="264" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" line="5" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Parser.cs" bodystart="5" bodyend="289"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a2e3790614192941211aefdbc7628fde9" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>_parent</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a1b98cb1824c3c4ebf0d779a172f18250" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>ParseNumber</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a8fb85cab9dc99ecd46cec0a88e8167b5" prot="package" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>Parser</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a08b502854eedd93d0b3f7b3bed791236" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>ScanArgument</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a43e6cba27fc5c539d67fd2ecef0b2727" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>ScanFile</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1aef98d1d1eba33b43afb45eb5a1045436" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>ScanLine</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1ab769a7ab4245e2daf10ab1791ffe1782" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Parser</scope><name>scanNextWordArg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

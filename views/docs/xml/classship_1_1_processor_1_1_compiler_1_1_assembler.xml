@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_compiler_1_1_assembler" kind="class" language="C#" prot="public">
+    <compoundname>ship::Processor::Compiler::Assembler</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1a5d3171e384e7475d6ab49fe4c449c901" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ship.Processor.Compiler.Assembler._hadError</definition>
+        <argsstring></argsstring>
+        <name>_hadError</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler._hadError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="6" column="18" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa45c801128ba780acf32d85e31c83c93" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classship_1_1_processor_1_1_compiler_1_1_parser" kindref="compound">Parser</ref></type>
+        <definition>readonly Parser ship.Processor.Compiler.Assembler._parser</definition>
+        <argsstring></argsstring>
+        <name>_parser</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler._parser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="48" column="29" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1ae9fce2af13eddbecb92bcebc5c4e4c84" prot="private" static="no" mutable="no">
+        <type>OperationDecl[]</type>
+        <definition>OperationDecl [] ship.Processor.Compiler.Assembler._operations</definition>
+        <argsstring></argsstring>
+        <name>_operations</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler._operations</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="50" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1ad427391c67853751c97781d4afba000d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" kindref="compound">IAsmPass</ref>[]</type>
+        <definition>readonly IAsmPass [] ship.Processor.Compiler.Assembler._passes</definition>
+        <argsstring></argsstring>
+        <name>_passes</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler._passes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="51" column="31" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa957de3d61f8f60f842b4160960eb00f" prot="public" static="yes" mutable="no">
+        <type>readonly List&lt; OpcodeDecl &gt;</type>
+        <definition>readonly List&lt;OpcodeDecl&gt; ship.Processor.Compiler.Assembler.Opcodes</definition>
+        <argsstring></argsstring>
+        <name>Opcodes</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Opcodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="7" column="33" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4362600be4ee38ad09c11d4092fb78bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; ErrorDecl &gt;</type>
+        <definition>List&lt;ErrorDecl&gt; ship.Processor.Compiler.Assembler.Errors</definition>
+        <argsstring></argsstring>
+        <name>Errors</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Errors</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="49" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1aeb9d79822e499873279da22717210312" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ushort</type>
+        <definition>ushort ship.Processor.Compiler.Assembler.ProgramSize</definition>
+        <argsstring></argsstring>
+        <name>ProgramSize</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.ProgramSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="53" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4d4d558eb8f7bee816e6e4f0d0285c04" prot="package" static="no" mutable="no">
+        <type>readonly Dictionary&lt; string, LabelDecl &gt;</type>
+        <definition>readonly Dictionary&lt;string, LabelDecl&gt; ship.Processor.Compiler.Assembler.Labels</definition>
+        <argsstring></argsstring>
+        <name>Labels</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Labels</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="52" column="34" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1a590f3a37c2eab0b90906ab9ccec3a547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ship.Processor.Compiler.Assembler.Assembler</definition>
+        <argsstring>()</argsstring>
+        <name>Assembler</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Assembler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="55" column="12" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1ab42c9aa9dec1cc9402ddafe6b9c4de98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ship.Processor.Compiler.Assembler.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="69" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1aaaa1dd1051295cf61e38d236f75b3db1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ship.Processor.Compiler.Assembler.Parse</definition>
+        <argsstring>(string[] input)</argsstring>
+        <name>Parse</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Parse</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="77" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1ac40b042f7a8e43301232f44d5c1a433c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ship.Processor.Compiler.Assembler.Assemble</definition>
+        <argsstring>(MemoryStream output)</argsstring>
+        <name>Assemble</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Assemble</qualifiedname>
+        <param>
+          <type>MemoryStream</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="84" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_assembler_1a2c5a00cca39108af9bfd1b63e0ea2511" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ship.Processor.Compiler.Assembler.Error</definition>
+        <argsstring>(int line, string message)</argsstring>
+        <name>Error</name>
+        <qualifiedname>ship.Processor.Compiler.Assembler.Error</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="64" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="5" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" bodystart="5" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a5d3171e384e7475d6ab49fe4c449c901" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>_hadError</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ae9fce2af13eddbecb92bcebc5c4e4c84" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>_operations</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa45c801128ba780acf32d85e31c83c93" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>_parser</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ad427391c67853751c97781d4afba000d" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>_passes</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ac40b042f7a8e43301232f44d5c1a433c" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Assemble</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a590f3a37c2eab0b90906ab9ccec3a547" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Assembler</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a2c5a00cca39108af9bfd1b63e0ea2511" prot="package" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Error</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4362600be4ee38ad09c11d4092fb78bf" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Errors</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4d4d558eb8f7bee816e6e4f0d0285c04" prot="package" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Labels</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa957de3d61f8f60f842b4160960eb00f" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Opcodes</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aaaa1dd1051295cf61e38d236f75b3db1" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Parse</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aeb9d79822e499873279da22717210312" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>ProgramSize</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ab42c9aa9dec1cc9402ddafe6b9c4de98" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Assembler</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

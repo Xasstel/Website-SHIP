@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceship_1_1_processor_1_1_compiler_1_1_passes" kind="namespace" language="C#">
+    <compoundname>ship::Processor::Compiler::Passes</compoundname>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass" prot="public">ship::Processor::Compiler::Passes::AssemblePass</innerclass>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass" prot="public">ship::Processor::Compiler::Passes::CollectLabelsPass</innerclass>
+    <innerclass refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" prot="public">ship::Processor::Compiler::Passes::IAsmPass</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/AssemblePass.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+.TH "ship.Processor.VM" 3 "Ship Processor" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ship.Processor.VM
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBDCPU16\fP"
+.br
+.RI "\fIQuick note: \fB[next word]\fP means you get the address from the next word (i have spent too much time pondering this at 3 AM) \fP "
+.ti -1c
+.RI "interface \fBIHardware\fP"
+.br
+.ti -1c
+.RI "class \fBMemory\fP"
+.br
+.ti -1c
+.RI "class \fBVMState\fP"
+.br
+.RI "This data class represents the entire state of the processor\&. "
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBRegs\fP { \fBA\fP = 0x0, \fBB\fP = 0x1, \fBC\fP = 0x2, \fBX\fP = 0x3, \fBY\fP = 0x4, \fBZ\fP = 0x5, \fBI\fP = 0x6, \fBJ\fP = 0x7 }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "class \fBInstructionInfo\fP (ushort opcode, string mnemonic, ushort a, ushort b)"
+.br
+.ti -1c
+.RI "class \fBHardwareQuery\fP (uint id, uint manufacturer, ushort version)"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Ship Processor from the source code\&.

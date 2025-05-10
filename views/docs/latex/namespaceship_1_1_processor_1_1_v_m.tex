@@ -1,0 +1,38 @@
+\doxysection{ship.\+Processor.\+VM Namespace Reference}
+\hypertarget{namespaceship_1_1_processor_1_1_v_m}{}\label{namespaceship_1_1_processor_1_1_v_m}\index{ship.Processor.VM@{ship.Processor.VM}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16}{DCPU16}}
+\begin{DoxyCompactList}\small\item\em {\itshape Quick note\+: {\bfseries{\mbox{[}next word\mbox{]}}} means you get the address from the next word (i have spent too much time pondering this at 3 AM) } \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware}{IHardware}}
+\item 
+class \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_memory}{Memory}}
+\item 
+class \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}}
+\begin{DoxyCompactList}\small\item\em This data class represents the entire state of the processor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_v_m_a66783a363c3b96e295864429c69b2f7f}\label{namespaceship_1_1_processor_1_1_v_m_a66783a363c3b96e295864429c69b2f7f} 
+enum {\bfseries Regs} \{ \newline
+{\bfseries A} = 0x0
+, {\bfseries B} = 0x1
+, {\bfseries C} = 0x2
+, {\bfseries X} = 0x3
+, \newline
+{\bfseries Y} = 0x4
+, {\bfseries Z} = 0x5
+, {\bfseries I} = 0x6
+, {\bfseries J} = 0x7
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_v_m_ac8e169c4b90bb2b0e9d8dea076e8c6e2}\label{namespaceship_1_1_processor_1_1_v_m_ac8e169c4b90bb2b0e9d8dea076e8c6e2} 
+class {\bfseries Instruction\+Info} (ushort opcode, string mnemonic, ushort a, ushort b)
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_v_m_abbe417e5282db8e4778f3053ec631ac3}\label{namespaceship_1_1_processor_1_1_v_m_abbe417e5282db8e4778f3053ec631ac3} 
+class {\bfseries Hardware\+Query} (uint id, uint manufacturer, ushort version)
+\end{DoxyCompactItemize}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_b75843cb6e9c1ee5648679e88581a1c4" kind="dir">
+    <compoundname>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor</compoundname>
+    <innerdir refid="dir_1011e28afac8a0ba43d68918fb1c9885">C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler</innerdir>
+    <innerdir refid="dir_fb692be65ae03e59790b28552430b3aa">C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/obj</innerdir>
+    <innerdir refid="dir_bbdc2eb8befe6d8ac3ddb6b1464aa5a7">C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/"/>
+  </compounddef>
+</doxygen>

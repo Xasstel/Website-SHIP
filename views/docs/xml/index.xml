@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass" kind="class"><name>ship::Processor::Compiler::Passes::AssemblePass</name>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass_1a76dd9b61a0006dfa3a50eb82df3004db" kind="variable"><name>stream</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass_1a97cf26ad6e73329382a1bf2d6c766f32" kind="function"><name>AssemblePass</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass_1a1a9e51c3dba75ee0da5f8c66b9699097" kind="function"><name>Assemble</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_assemble_pass_1ad8a56caddd8c39aaf4055f3f6650577e" kind="function"><name>GenerateArgument</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kind="class"><name>ship::Processor::Compiler::Assembler</name>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a5d3171e384e7475d6ab49fe4c449c901" kind="variable"><name>_hadError</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa45c801128ba780acf32d85e31c83c93" kind="variable"><name>_parser</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ae9fce2af13eddbecb92bcebc5c4e4c84" kind="variable"><name>_operations</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ad427391c67853751c97781d4afba000d" kind="variable"><name>_passes</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aa957de3d61f8f60f842b4160960eb00f" kind="variable"><name>Opcodes</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4362600be4ee38ad09c11d4092fb78bf" kind="property"><name>Errors</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aeb9d79822e499873279da22717210312" kind="property"><name>ProgramSize</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a4d4d558eb8f7bee816e6e4f0d0285c04" kind="variable"><name>Labels</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a590f3a37c2eab0b90906ab9ccec3a547" kind="function"><name>Assembler</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ab42c9aa9dec1cc9402ddafe6b9c4de98" kind="function"><name>Reset</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1aaaa1dd1051295cf61e38d236f75b3db1" kind="function"><name>Parse</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1ac40b042f7a8e43301232f44d5c1a433c" kind="function"><name>Assemble</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_assembler_1a2c5a00cca39108af9bfd1b63e0ea2511" kind="function"><name>Error</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass" kind="class"><name>ship::Processor::Compiler::Passes::CollectLabelsPass</name>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8da9ba06f05e7b95265aea8009795c59" kind="function"><name>CollectLabelsPass</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a7d034e2d20d9846e3739168dd7e9ef77" kind="function"><name>Assemble</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8d3775e5282dbf3ff77dda3b12dbf643" kind="function"><name>CalculateInstructionSize</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16" kind="class"><name>ship::Processor::VM::DCPU16</name>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aea7ebf7c3ba608e33994c1a350f97568" kind="function"><name>DCPU16</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1adf72535d9ce16be62eaf3d02db309b2b" kind="function"><name>PedanticVariable</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a7863b998e3799708e75b4df1c0cad22d" kind="function"><name>Reset</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a5b017b21f5e11e7263f775814766084e" kind="function"><name>RegisterHardware</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a22b85139c1d70d67f0d3896f699fce3e" kind="function"><name>QueueInterrupt</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a1dd146d6969ad1e26d8ff66834b305c1" kind="function"><name>Step</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa618bf5c19757dd0af39670a5e8b7f87" kind="function"><name>GetValue</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a959606aab330376f27124ac29f5ce1dd" kind="function"><name>SetValue</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1aa8c1575292019bd7bfdb3b238496491e" kind="function"><name>AddLogEntry</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1abf7bd3fa26f34e51791b83d158bb7414" kind="function"><name>ExtendSign</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a6201ce9944de647fa4e08e3b6c711fee" kind="function"><name>SetInstructionInfo</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a0bcf91b56de1cf3deedd08b67aadcd24" kind="function"><name>TriggerQueuedInterrupt</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16_1a9b22aa8a2096fcedf929db04d3b97472" kind="function"><name>Skip</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" kind="class"><name>ship::Processor::Compiler::Passes::IAsmPass</name>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1a9a62be1b376126b767c5b9fa0045c64c" kind="variable"><name>Parent</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1aa2039a8838b3bb9e242b3d9dba056810" kind="function"><name>Assemble</name></member>
+  </compound>
+  <compound refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" kind="interface"><name>ship::Processor::VM::IHardware</name>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1ab54bc5eb8ba9e25cdb16eb8d67e0ef39" kind="function"><name>Init</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a07907cd762b363a918b8f225aee8bb9e" kind="function"><name>GetHardwareInfo</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a1068d023f31aa7bd0c6aaf6e4a46aecc" kind="function"><name>Interrupt</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a60df70fe2e963affadf30bbb23daf258" kind="function"><name>Tick</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a47406b7b95ac96e161d31302c0b89550" kind="function"><name>Cleanup</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1adaa6f81b8b34f6cce0e1dea71bde2a71" kind="function"><name>MemorySet</name></member>
+    <member refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware_1a889d5ec25f6cd2d855be1cc7c007a7ee" kind="function"><name>Reset</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_v_m_1_1_memory" kind="class"><name>ship::Processor::VM::Memory</name>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_memory_1a4fa041ccf23f253e9fc50cbef8be7ebf" kind="variable"><name>MemSize</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_memory_1a31128b34776383d6be09c0772fdc0126" kind="variable"><name>_memory</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_memory_1a4be53b8d755f4c9c346322632d283c76" kind="property"><name>this[int i]</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_memory_1a936aa9252706c578d682fd0aa033557b" kind="function"><name>Reset</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_memory_1a41a1230199c694d15e3bbd0ce0002a25" kind="function"><name>Load</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_compiler_1_1_parser" kind="class"><name>ship::Processor::Compiler::Parser</name>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a2e3790614192941211aefdbc7628fde9" kind="variable"><name>_parent</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a8fb85cab9dc99ecd46cec0a88e8167b5" kind="function"><name>Parser</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a43e6cba27fc5c539d67fd2ecef0b2727" kind="function"><name>ScanFile</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1aef98d1d1eba33b43afb45eb5a1045436" kind="function"><name>ScanLine</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a08b502854eedd93d0b3f7b3bed791236" kind="function"><name>ScanArgument</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1a1b98cb1824c3c4ebf0d779a172f18250" kind="function"><name>ParseNumber</name></member>
+    <member refid="classship_1_1_processor_1_1_compiler_1_1_parser_1ab769a7ab4245e2daf10ab1791ffe1782" kind="function"><name>scanNextWordArg</name></member>
+  </compound>
+  <compound refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kind="class"><name>ship::Processor::VM::VMState</name>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ab73aa004d59751b3c6cfb6f002d25349" kind="variable"><name>Memory</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a1db670c7527582a19bd7bb672cb26e54" kind="variable"><name>Registers</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afdab8663c6caaee42399dad77c59d183" kind="variable"><name>InterruptQueue</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9da9f91703f2e91da937a2bf69a1b93e" kind="variable"><name>PC</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a342bf62c1da3ccf46f336614771582d1" kind="variable"><name>SP</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9320ec4ea0113d020d7eb4514eea823f" kind="variable"><name>EX</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afc22e3e6eb88e09dcdacc7591db0866f" kind="variable"><name>IA</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a018c8c3f0c0a7cf3a63765ff263da511" kind="variable"><name>totalCycles</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1abe00d4958653f5e07a8f84b6d647b117" kind="variable"><name>Logs</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a0f3358a8bd90b87f86ec6630f60b8c55" kind="variable"><name>_cycles</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a11cea18091aa4deafe0751fe3113fc40" kind="variable"><name>Fried</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a13aba67e4f0d0daec8ac26fd3cec6d78" kind="variable"><name>QueueInterrupts</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad542b169ea7132b8683dfc696c1ce139" kind="property"><name>currentOp</name></member>
+    <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad5160937fd68c437f986de79f42ea2f6" kind="property"><name>Hardware</name></member>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespaceship" kind="namespace"><name>ship</name>
+  </compound>
+  <compound refid="namespaceship_1_1_processor" kind="namespace"><name>ship::Processor</name>
+  </compound>
+  <compound refid="namespaceship_1_1_processor_1_1_compiler" kind="namespace"><name>ship::Processor::Compiler</name>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221" kind="enum"><name>ArgumentType</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ae1c4d7fb1eaf04a0b328575d970468f5" kind="enumvalue"><name>IHaveNoFuckingClue</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a0ba7583639a274c434bbe6ef797115a4" kind="enumvalue"><name>Register</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ac2ab4c6a2c46688f68d7e6a0f1b82994" kind="enumvalue"><name>RegisterPointer</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ae80ce7955e87f92818a95ec9e040c9b9" kind="enumvalue"><name>RegisterNextWordPointer</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221ac1d1b35eda4ff239c4cf802f7a05a083" kind="enumvalue"><name>StackManip</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221af20d8464e684ffa631ec234ad859ac6e" kind="enumvalue"><name>StackPeek</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221acdf4ed0e7db1432e0633a409cddc2943" kind="enumvalue"><name>StackPick</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a2d7154a899afecaafc246d206b1349bc" kind="enumvalue"><name>StackPointer</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a9481cc29b3c79b14b7ba9647d231b03c" kind="enumvalue"><name>ProgramCounter</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a5a35b5cb6fd88858dd38616bd233587a" kind="enumvalue"><name>ExcessRegister</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221aeb0f40b141569f8e4a4f09dc92601851" kind="enumvalue"><name>NextWordPointer</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a525f744c4a05e51f38bda96fdd9d6221a174ee6b039a82313489b52a668e28b7f" kind="enumvalue"><name>NextWord</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kind="enum"><name>Register</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a7fc56270e7a70fa81a5935b72eacbe29" kind="enumvalue"><name>A</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a9d5ed678fe57bcca610140957afab571" kind="enumvalue"><name>B</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a0d61f8370cad1d412f80b84d143e1257" kind="enumvalue"><name>C</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a02129bb861061d1a052c592e2dc6b383" kind="enumvalue"><name>X</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a57cec4137b614c87cb4e24a3d003a3e0" kind="enumvalue"><name>Y</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62a21c2e59531c8710156d34a3c30ac81d5" kind="enumvalue"><name>Z</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62add7536794b63bf90eccfd37f9b147d7f" kind="enumvalue"><name>I</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62aff44570aca8241914870afbc310cdb85" kind="enumvalue"><name>J</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a3579e140a886fddec938c5a9eaaaebda" kind="function"><name>OperationDecl</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a534b23253a36682edce56bf9df2e163d" kind="function"><name>OpcodeDecl</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1ad4058b9f9ebc8e8776f29c44d5a4f58b" kind="function"><name>ArgumentDecl</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1aca4fe2bbafbc5464ca4299131fb5e4bb" kind="function"><name>PlusNextWordArg</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_compiler_1a0399f0b5f159b39c3a3a0bedc647745b" kind="function"><name>ErrorDecl</name></member>
+  </compound>
+  <compound refid="namespaceship_1_1_processor_1_1_compiler_1_1_passes" kind="namespace"><name>ship::Processor::Compiler::Passes</name>
+  </compound>
+  <compound refid="namespaceship_1_1_processor_1_1_v_m" kind="namespace"><name>ship::Processor::VM</name>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7f" kind="enum"><name>Regs</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa7fc56270e7a70fa81a5935b72eacbe29" kind="enumvalue"><name>A</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa9d5ed678fe57bcca610140957afab571" kind="enumvalue"><name>B</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa0d61f8370cad1d412f80b84d143e1257" kind="enumvalue"><name>C</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa02129bb861061d1a052c592e2dc6b383" kind="enumvalue"><name>X</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa57cec4137b614c87cb4e24a3d003a3e0" kind="enumvalue"><name>Y</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa21c2e59531c8710156d34a3c30ac81d5" kind="enumvalue"><name>Z</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fadd7536794b63bf90eccfd37f9b147d7f" kind="enumvalue"><name>I</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7faff44570aca8241914870afbc310cdb85" kind="enumvalue"><name>J</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1ac8e169c4b90bb2b0e9d8dea076e8c6e2" kind="function"><name>InstructionInfo</name></member>
+    <member refid="namespaceship_1_1_processor_1_1_v_m_1abbe417e5282db8e4778f3053ec631ac3" kind="function"><name>HardwareQuery</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics_1_1_code_analysis" kind="namespace"><name>System::Diagnostics::CodeAnalysis</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="_assembler_8cs" kind="file"><name>Assembler.cs</name>
+  </compound>
+  <compound refid="_decls_8cs" kind="file"><name>Decls.cs</name>
+  </compound>
+  <compound refid="_parser_8cs" kind="file"><name>Parser.cs</name>
+  </compound>
+  <compound refid="_assemble_pass_8cs" kind="file"><name>AssemblePass.cs</name>
+  </compound>
+  <compound refid="_collect_labels_pass_8cs" kind="file"><name>CollectLabelsPass.cs</name>
+  </compound>
+  <compound refid="_i_asm_pass_8cs" kind="file"><name>IAsmPass.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="ship_8_processor_8_assembly_info_8cs" kind="file"><name>ship.Processor.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="ship_8_processor_8_global_usings_8g_8cs" kind="file"><name>ship.Processor.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_d_c_p_u16_8cs" kind="file"><name>DCPU16.cs</name>
+  </compound>
+  <compound refid="_enums_8cs" kind="file"><name>Enums.cs</name>
+  </compound>
+  <compound refid="_hardware_8cs" kind="file"><name>Hardware.cs</name>
+  </compound>
+  <compound refid="_memory_8cs" kind="file"><name>Memory.cs</name>
+  </compound>
+  <compound refid="_v_m_state_8cs" kind="file"><name>VMState.cs</name>
+  </compound>
+  <compound refid="dir_1011e28afac8a0ba43d68918fb1c9885" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler</name>
+  </compound>
+  <compound refid="dir_fb22cc6a07892a4f95286f3e8e8e2f9a" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/obj/Debug</name>
+  </compound>
+  <compound refid="dir_e1c51184d1ae8e16c5d66d7845ba4668" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_fb692be65ae03e59790b28552430b3aa" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/obj</name>
+  </compound>
+  <compound refid="dir_ad3e3715b718c3ea2115b2c0ae851349" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes</name>
+  </compound>
+  <compound refid="dir_b75843cb6e9c1ee5648679e88581a1c4" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor</name>
+  </compound>
+  <compound refid="dir_bbdc2eb8befe6d8ac3ddb6b1464aa5a7" kind="dir"><name>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM</name>
+  </compound>
+</doxygenindex>

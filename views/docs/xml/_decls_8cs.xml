@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_decls_8cs" kind="file" language="C#">
+    <compoundname>Decls.cs</compoundname>
+    <innernamespace refid="namespaceship">ship</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor">ship::Processor</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_compiler">ship::Processor::Compiler</innernamespace>
+    <innernamespace refid="namespace_system_1_1_diagnostics_1_1_code_analysis">System::Diagnostics::CodeAnalysis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Diagnostics.CodeAnalysis;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceship_1_1_processor_1_1_compiler" kindref="compound">ship.Processor.Compiler</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>OperationDecl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LineNumber);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>InstructionDecl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LineNumber,<sp/>OpcodeDecl<sp/>Decl,<sp/>ArgumentDecl[]<sp/>ArgDecls)<sp/>:<sp/>OperationDecl(LineNumber);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>LabelDecl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LineNumber,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>LabelName,<sp/>ushort?<sp/>Position)<sp/>:<sp/>OperationDecl(LineNumber);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>OpcodeDecl(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Special,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ArgCount,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Id);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>ArgumentDecl(ArgumentType<sp/>Type,<sp/><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref>?<sp/><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ArgumentIndex,<sp/>ushort?<sp/>ImmediateValue,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">?<sp/>LabelID)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ushort?<sp/>ImmediateValue<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}<sp/>=<sp/>ImmediateValue;<sp/></highlight><highlight class="comment">//<sp/>modified<sp/>at<sp/>final<sp/>pass<sp/>to<sp/>try<sp/>set<sp/>value<sp/>to<sp/>label<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>PlusNextWordArg(ushort?<sp/>value,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">?<sp/>label,<sp/><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref>?<sp/>reg);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>record<sp/>ErrorDecl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">?<sp/>Message)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ToString()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$</highlight><highlight class="stringliteral">&quot;line<sp/>{line}:<sp/>{Message}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>ArgumentType<sp/>:<sp/>ushort<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[SuppressMessage(</highlight><highlight class="stringliteral">&quot;ReSharper&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;InconsistentNaming&quot;</highlight><highlight class="normal">)]<sp/>IHaveNoFuckingClue<sp/>=<sp/>0xff,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>RegisterPointer<sp/>=<sp/>0x8,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>RegisterNextWordPointer<sp/>=<sp/>0x10,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>StackManip<sp/>=<sp/>0x18,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>StackPeek<sp/>=<sp/>0x19,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>StackPick<sp/>=<sp/>0x1A,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>StackPointer<sp/>=<sp/>0x1b,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgramCounter<sp/>=<sp/>0x1c,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>ExcessRegister<sp/>=<sp/>0x1d,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>NextWordPointer<sp/>=<sp/>0x1e,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>NextWord<sp/>=<sp/>0x1f,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceship_1_1_processor_1_1_compiler_1af0f5b6d151b7a45d666a3b359e321f62" kindref="member">Register</ref><sp/>:<sp/>ushort<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>A<sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>B<sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>C<sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>X<sp/>=<sp/>0x3,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>Y<sp/>=<sp/>0x4,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Z<sp/>=<sp/>0x5,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/>=<sp/>0x6,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>J<sp/>=<sp/>0x7</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Decls.cs"/>
+  </compounddef>
+</doxygen>

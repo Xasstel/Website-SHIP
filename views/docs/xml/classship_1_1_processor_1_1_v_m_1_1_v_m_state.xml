@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kind="class" language="C#" prot="public">
+    <compoundname>ship::Processor::VM::VMState</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ab73aa004d59751b3c6cfb6f002d25349" prot="public" static="no" mutable="no">
+        <type><ref refid="classship_1_1_processor_1_1_v_m_1_1_memory" kindref="compound">Memory</ref></type>
+        <definition>Memory ship.Processor.VM.VMState.Memory</definition>
+        <argsstring></argsstring>
+        <name>Memory</name>
+        <qualifiedname>ship.Processor.VM.VMState.Memory</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="9" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a1db670c7527582a19bd7bb672cb26e54" prot="public" static="no" mutable="no">
+        <type>ushort[]</type>
+        <definition>ushort [] ship.Processor.VM.VMState.Registers</definition>
+        <argsstring></argsstring>
+        <name>Registers</name>
+        <qualifiedname>ship.Processor.VM.VMState.Registers</qualifiedname>
+        <initializer>= new ushort[8]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="10" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afdab8663c6caaee42399dad77c59d183" prot="public" static="no" mutable="no">
+        <type>Queue&lt; Action&lt; <ref refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" kindref="compound">VMState</ref> &gt; &gt;</type>
+        <definition>Queue&lt;Action&lt;VMState&gt; &gt; ship.Processor.VM.VMState.InterruptQueue</definition>
+        <argsstring></argsstring>
+        <name>InterruptQueue</name>
+        <qualifiedname>ship.Processor.VM.VMState.InterruptQueue</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="11" column="18" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9da9f91703f2e91da937a2bf69a1b93e" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort ship.Processor.VM.VMState.PC</definition>
+        <argsstring></argsstring>
+        <name>PC</name>
+        <qualifiedname>ship.Processor.VM.VMState.PC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="12" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a342bf62c1da3ccf46f336614771582d1" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort ship.Processor.VM.VMState.SP</definition>
+        <argsstring></argsstring>
+        <name>SP</name>
+        <qualifiedname>ship.Processor.VM.VMState.SP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="12" column="22" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9320ec4ea0113d020d7eb4514eea823f" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort ship.Processor.VM.VMState.EX</definition>
+        <argsstring></argsstring>
+        <name>EX</name>
+        <qualifiedname>ship.Processor.VM.VMState.EX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="12" column="25" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afc22e3e6eb88e09dcdacc7591db0866f" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort ship.Processor.VM.VMState.IA</definition>
+        <argsstring></argsstring>
+        <name>IA</name>
+        <qualifiedname>ship.Processor.VM.VMState.IA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="12" column="28" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a018c8c3f0c0a7cf3a63765ff263da511" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ship.Processor.VM.VMState.totalCycles</definition>
+        <argsstring></argsstring>
+        <name>totalCycles</name>
+        <qualifiedname>ship.Processor.VM.VMState.totalCycles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="14" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1abe00d4958653f5e07a8f84b6d647b117" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ship.Processor.VM.VMState.Logs</definition>
+        <argsstring></argsstring>
+        <name>Logs</name>
+        <qualifiedname>ship.Processor.VM.VMState.Logs</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="17" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a0f3358a8bd90b87f86ec6630f60b8c55" prot="package" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ship.Processor.VM.VMState._cycles</definition>
+        <argsstring></argsstring>
+        <name>_cycles</name>
+        <qualifiedname>ship.Processor.VM.VMState._cycles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="13" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a11cea18091aa4deafe0751fe3113fc40" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ship.Processor.VM.VMState.Fried</definition>
+        <argsstring></argsstring>
+        <name>Fried</name>
+        <qualifiedname>ship.Processor.VM.VMState.Fried</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="15" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a13aba67e4f0d0daec8ac26fd3cec6d78" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ship.Processor.VM.VMState.QueueInterrupts</definition>
+        <argsstring></argsstring>
+        <name>QueueInterrupts</name>
+        <qualifiedname>ship.Processor.VM.VMState.QueueInterrupts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="16" column="19" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad542b169ea7132b8683dfc696c1ce139" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InstructionInfo</type>
+        <definition>InstructionInfo ship.Processor.VM.VMState.currentOp</definition>
+        <argsstring></argsstring>
+        <name>currentOp</name>
+        <qualifiedname>ship.Processor.VM.VMState.currentOp</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="18" column="28" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad5160937fd68c437f986de79f42ea2f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" kindref="compound">IHardware</ref> &gt;</type>
+        <definition>List&lt;IHardware&gt; ship.Processor.VM.VMState.Hardware</definition>
+        <argsstring></argsstring>
+        <name>Hardware</name>
+        <qualifiedname>ship.Processor.VM.VMState.Hardware</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="19" column="17" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This data class represents the entire state of the processor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ship.Processor.VM.VMState</label>
+        <link refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Memory</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ship.Processor.VM.Memory</label>
+        <link refid="classship_1_1_processor_1_1_v_m_1_1_memory"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" line="7" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/VMState.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a0f3358a8bd90b87f86ec6630f60b8c55" prot="package" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>_cycles</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad542b169ea7132b8683dfc696c1ce139" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>currentOp</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9320ec4ea0113d020d7eb4514eea823f" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>EX</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a11cea18091aa4deafe0751fe3113fc40" prot="package" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>Fried</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ad5160937fd68c437f986de79f42ea2f6" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>Hardware</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afc22e3e6eb88e09dcdacc7591db0866f" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>IA</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1afdab8663c6caaee42399dad77c59d183" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>InterruptQueue</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1abe00d4958653f5e07a8f84b6d647b117" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>Logs</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1ab73aa004d59751b3c6cfb6f002d25349" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>Memory</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a9da9f91703f2e91da937a2bf69a1b93e" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>PC</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a13aba67e4f0d0daec8ac26fd3cec6d78" prot="package" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>QueueInterrupts</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a1db670c7527582a19bd7bb672cb26e54" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>Registers</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a342bf62c1da3ccf46f336614771582d1" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>SP</name></member>
+      <member refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state_1a018c8c3f0c0a7cf3a63765ff263da511" prot="public" virt="non-virtual"><scope>ship::Processor::VM::VMState</scope><name>totalCycles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

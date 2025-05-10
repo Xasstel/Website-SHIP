@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_1011e28afac8a0ba43d68918fb1c9885" kind="dir">
+    <compoundname>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler</compoundname>
+    <innerdir refid="dir_ad3e3715b718c3ea2115b2c0ae851349">C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes</innerdir>
+    <innerfile refid="_assembler_8cs">Assembler.cs</innerfile>
+    <innerfile refid="_decls_8cs">Decls.cs</innerfile>
+    <innerfile refid="_parser_8cs">Parser.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/"/>
+  </compounddef>
+</doxygen>

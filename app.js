@@ -9,26 +9,32 @@ const PORT = 3000;
 app.engine("hbs", expressHbs.engine({
     layoutsDir: "views/layouts",
     defaultLayout: "main",
-    extname: "hbs"
+    extname: "hbs",
+    partialsDir: "views/partials",
 }));
 
 app.set("view engine", "hbs");
 app.use("/static", express.static(path.join(__dirname, "public")));
-hbs.registerPartials(__dirname + "/views/partials");
 
 app.get("/", function(req, res) {
+    res.redirect("/about");
+});
+
+app.get("/about", (req, res)=>{
     res.render("about", {
         title: "Main - SHIP",
+        layout: "main-layout"
     });
-});
+})
 
 app.get("/download", function(req, res) {
     res.render("download", {
         title: "Download - SHIP",
+        layout: "download-layout"
     });
 });
 
-app.get('/download/:file', (req, res) => {
+app.get("/downloads/:file", (req, res) => {
     const file = req.params.file;
     const filePath = path.join(__dirname, 'downloads', file);
     res.download(filePath, (err) => {
@@ -39,6 +45,20 @@ app.get('/download/:file', (req, res) => {
     });
 });
 
+app.get("/patches", (req, res)=>{
+    res.render("patches", {
+        title: "Patches - SHIP",
+        layout: "patches-layout"
+    })
+});
+
+app.get("/docs", (req, res)=>{
+    res.render("docs/html/index", {
+        title: "Docs - SHIP",
+        layout: false,
+    })
+});
+
 app.listen(PORT, () => {
-    console.log(`Сервер запущен на порту ${PORT}`);
+    console.log(`Server is started on port ${PORT}`);
 });

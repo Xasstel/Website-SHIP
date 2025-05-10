@@ -1,0 +1,54 @@
+\doxysection{ship.\+Processor.\+VM.\+VMState Class Reference}
+\hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state}\index{ship.Processor.VM.VMState@{ship.Processor.VM.VMState}}
+
+
+This data class represents the entire state of the processor.  
+
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ab73aa004d59751b3c6cfb6f002d25349}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ab73aa004d59751b3c6cfb6f002d25349} 
+\mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_memory}{Memory}} {\bfseries Memory} = new()
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a1db670c7527582a19bd7bb672cb26e54}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a1db670c7527582a19bd7bb672cb26e54} 
+ushort\mbox{[}$\,$\mbox{]} {\bfseries Registers} = new ushort\mbox{[}8\mbox{]}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_afdab8663c6caaee42399dad77c59d183}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_afdab8663c6caaee42399dad77c59d183} 
+Queue$<$ Action$<$ \mbox{\hyperlink{classship_1_1_processor_1_1_v_m_1_1_v_m_state}{VMState}} $>$ $>$ {\bfseries Interrupt\+Queue} = new()
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a9da9f91703f2e91da937a2bf69a1b93e}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a9da9f91703f2e91da937a2bf69a1b93e} 
+ushort {\bfseries PC}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a342bf62c1da3ccf46f336614771582d1}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a342bf62c1da3ccf46f336614771582d1} 
+ushort {\bfseries SP}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a9320ec4ea0113d020d7eb4514eea823f}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a9320ec4ea0113d020d7eb4514eea823f} 
+ushort {\bfseries EX}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_afc22e3e6eb88e09dcdacc7591db0866f}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_afc22e3e6eb88e09dcdacc7591db0866f} 
+ushort {\bfseries IA}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a018c8c3f0c0a7cf3a63765ff263da511}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_a018c8c3f0c0a7cf3a63765ff263da511} 
+uint {\bfseries total\+Cycles}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_abe00d4958653f5e07a8f84b6d647b117}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_abe00d4958653f5e07a8f84b6d647b117} 
+List$<$ string $>$ {\bfseries Logs} = \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ad542b169ea7132b8683dfc696c1ce139}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ad542b169ea7132b8683dfc696c1ce139} 
+Instruction\+Info {\bfseries current\+Op} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ad5160937fd68c437f986de79f42ea2f6}\label{classship_1_1_processor_1_1_v_m_1_1_v_m_state_ad5160937fd68c437f986de79f42ea2f6} 
+List$<$ \mbox{\hyperlink{interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware}{IHardware}} $>$ {\bfseries Hardware} = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This data class represents the entire state of the processor. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/\+Downloads/final-\/project-\/name-\/vinogradov-\/team-\/feature-\/invsys/ship.\+Processor/\+VM/VMState.\+cs\end{DoxyCompactItemize}

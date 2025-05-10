@@ -1,0 +1,57 @@
+.TH "ship.Processor.VM.VMState" 3 "Ship Processor" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ship.Processor.VM.VMState \- This data class represents the entire state of the processor\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBMemory\fP \fBMemory\fP = new()"
+.br
+.ti -1c
+.RI "ushort[] \fBRegisters\fP = new ushort[8]"
+.br
+.ti -1c
+.RI "Queue< Action< \fBVMState\fP > > \fBInterruptQueue\fP = new()"
+.br
+.ti -1c
+.RI "ushort \fBPC\fP"
+.br
+.ti -1c
+.RI "ushort \fBSP\fP"
+.br
+.ti -1c
+.RI "ushort \fBEX\fP"
+.br
+.ti -1c
+.RI "ushort \fBIA\fP"
+.br
+.ti -1c
+.RI "uint \fBtotalCycles\fP"
+.br
+.ti -1c
+.RI "List< string > \fBLogs\fP = []"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InstructionInfo \fBcurrentOp\fP = new()\fR [get, set]\fP"
+.br
+.ti -1c
+.RI "List< \fBIHardware\fP > \fBHardware\fP = []\fR [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This data class represents the entire state of the processor\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Ship Processor from the source code\&.

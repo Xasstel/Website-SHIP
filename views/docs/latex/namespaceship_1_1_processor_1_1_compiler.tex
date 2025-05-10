@@ -1,0 +1,61 @@
+\doxysection{ship.\+Processor.\+Compiler Namespace Reference}
+\hypertarget{namespaceship_1_1_processor_1_1_compiler}{}\label{namespaceship_1_1_processor_1_1_compiler}\index{ship.Processor.Compiler@{ship.Processor.Compiler}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classship_1_1_processor_1_1_compiler_1_1_assembler}{Assembler}}
+\item 
+class \mbox{\hyperlink{classship_1_1_processor_1_1_compiler_1_1_parser}{Parser}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_a525f744c4a05e51f38bda96fdd9d6221}\label{namespaceship_1_1_processor_1_1_compiler_a525f744c4a05e51f38bda96fdd9d6221} 
+enum {\bfseries Argument\+Type} \+: ushort \{ \newline
+{\bfseries IHave\+No\+Fucking\+Clue} = 0xff
+, {\bfseries Register} = 0x0
+, {\bfseries Register\+Pointer} = 0x8
+, {\bfseries Register\+Next\+Word\+Pointer} = 0x10
+, \newline
+{\bfseries Stack\+Manip} = 0x18
+, {\bfseries Stack\+Peek} = 0x19
+, {\bfseries Stack\+Pick} = 0x1A
+, {\bfseries Stack\+Pointer} = 0x1b
+, \newline
+{\bfseries Program\+Counter} = 0x1c
+, {\bfseries Excess\+Register} = 0x1d
+, {\bfseries Next\+Word\+Pointer} = 0x1e
+, {\bfseries Next\+Word} = 0x1f
+ \}
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62}\label{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62} 
+enum \mbox{\hyperlink{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62}{Register}} \+: ushort \{ \newline
+{\bfseries A} = 0x0
+, {\bfseries B} = 0x1
+, {\bfseries C} = 0x2
+, {\bfseries X} = 0x3
+, \newline
+{\bfseries Y} = 0x4
+, {\bfseries Z} = 0x5
+, {\bfseries I} = 0x6
+, {\bfseries J} = 0x7
+ \}
+\begin{DoxyCompactList}\small\item\em MAKE SURE TO SUBSTRACT 1!!!!!!! \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_a3579e140a886fddec938c5a9eaaaebda}\label{namespaceship_1_1_processor_1_1_compiler_a3579e140a886fddec938c5a9eaaaebda} 
+record {\bfseries Operation\+Decl} (int Line\+Number)
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_a534b23253a36682edce56bf9df2e163d}\label{namespaceship_1_1_processor_1_1_compiler_a534b23253a36682edce56bf9df2e163d} 
+record Instruction\+Decl(int Line\+Number, Opcode\+Decl Decl, Argument\+Decl\mbox{[}$\,$\mbox{]} Arg\+Decls) record Label\+Decl(int Line\+Number, string Label\+Name, ushort? Position) record {\bfseries Opcode\+Decl} (string Name, bool Special, int Arg\+Count, int Id)
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_ad4058b9f9ebc8e8776f29c44d5a4f58b}\label{namespaceship_1_1_processor_1_1_compiler_ad4058b9f9ebc8e8776f29c44d5a4f58b} 
+record {\bfseries Argument\+Decl} (Argument\+Type Type, \mbox{\hyperlink{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62}{Register}}? \mbox{\hyperlink{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62}{Register}}, int Argument\+Index, ushort? Immediate\+Value, string? Label\+ID)
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_aca4fe2bbafbc5464ca4299131fb5e4bb}\label{namespaceship_1_1_processor_1_1_compiler_aca4fe2bbafbc5464ca4299131fb5e4bb} 
+record {\bfseries Plus\+Next\+Word\+Arg} (ushort? value, string? label, \mbox{\hyperlink{namespaceship_1_1_processor_1_1_compiler_af0f5b6d151b7a45d666a3b359e321f62}{Register}}? reg)
+\item 
+\Hypertarget{namespaceship_1_1_processor_1_1_compiler_a0399f0b5f159b39c3a3a0bedc647745b}\label{namespaceship_1_1_processor_1_1_compiler_a0399f0b5f159b39c3a3a0bedc647745b} 
+record {\bfseries Error\+Decl} (int line, string? Message)
+\end{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass" kind="class" language="C#" prot="public">
+    <compoundname>ship::Processor::Compiler::Passes::CollectLabelsPass</compoundname>
+    <basecompoundref refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass" prot="public" virt="non-virtual">ship.Processor.Compiler.Passes.IAsmPass</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8da9ba06f05e7b95265aea8009795c59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ship.Processor.Compiler.Passes.CollectLabelsPass.CollectLabelsPass</definition>
+        <argsstring>(Assembler parent)</argsstring>
+        <name>CollectLabelsPass</name>
+        <qualifiedname>ship.Processor.Compiler.Passes.CollectLabelsPass.CollectLabelsPass</qualifiedname>
+        <param>
+          <type><ref refid="classship_1_1_processor_1_1_compiler_1_1_assembler" kindref="compound">Assembler</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" line="4" column="12" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" bodystart="4" bodyend="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a7d034e2d20d9846e3739168dd7e9ef77" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ship.Processor.Compiler.Passes.CollectLabelsPass.Assemble</definition>
+        <argsstring>(ref OperationDecl[] operations)</argsstring>
+        <name>Assemble</name>
+        <qualifiedname>ship.Processor.Compiler.Passes.CollectLabelsPass.Assemble</qualifiedname>
+        <param>
+          <type>ref OperationDecl[]</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" line="8" column="28" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" bodystart="8" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8d3775e5282dbf3ff77dda3b12dbf643" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort ship.Processor.Compiler.Passes.CollectLabelsPass.CalculateInstructionSize</definition>
+        <argsstring>(InstructionDecl instruction)</argsstring>
+        <name>CalculateInstructionSize</name>
+        <qualifiedname>ship.Processor.Compiler.Passes.CollectLabelsPass.CalculateInstructionSize</qualifiedname>
+        <param>
+          <type>InstructionDecl</type>
+          <declname>instruction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instruction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Processed instruction</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The amount of machine words used by the instruction</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" line="32" column="27" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IAsmPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass"/>
+      </node>
+      <node id="1">
+        <label>ship.Processor.Compiler.Passes.CollectLabelsPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IAsmPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ship.Processor.Compiler.Passes.CollectLabelsPass</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ship.Processor.Compiler.Assembler</label>
+        <link refid="classship_1_1_processor_1_1_compiler_1_1_assembler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" line="3" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Passes/CollectLabelsPass.cs" bodystart="3" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a7d034e2d20d9846e3739168dd7e9ef77" prot="package" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::CollectLabelsPass</scope><name>Assemble</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8d3775e5282dbf3ff77dda3b12dbf643" prot="private" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::CollectLabelsPass</scope><name>CalculateInstructionSize</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_collect_labels_pass_1a8da9ba06f05e7b95265aea8009795c59" prot="public" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::CollectLabelsPass</scope><name>CollectLabelsPass</name></member>
+      <member refid="classship_1_1_processor_1_1_compiler_1_1_passes_1_1_i_asm_pass_1a9a62be1b376126b767c5b9fa0045c64c" prot="protected" virt="non-virtual"><scope>ship::Processor::Compiler::Passes::CollectLabelsPass</scope><name>Parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

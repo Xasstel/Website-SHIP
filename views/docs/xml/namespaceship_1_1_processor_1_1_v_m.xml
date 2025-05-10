@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceship_1_1_processor_1_1_v_m" kind="namespace" language="C#">
+    <compoundname>ship::Processor::VM</compoundname>
+    <innerclass refid="classship_1_1_processor_1_1_v_m_1_1_d_c_p_u16" prot="public">ship::Processor::VM::DCPU16</innerclass>
+    <innerclass refid="interfaceship_1_1_processor_1_1_v_m_1_1_i_hardware" prot="public">ship::Processor::VM::IHardware</innerclass>
+    <innerclass refid="classship_1_1_processor_1_1_v_m_1_1_memory" prot="public">ship::Processor::VM::Memory</innerclass>
+    <innerclass refid="classship_1_1_processor_1_1_v_m_1_1_v_m_state" prot="public">ship::Processor::VM::VMState</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Regs</name>
+        <qualifiedname>ship.Processor.VM.Regs</qualifiedname>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <initializer>= 0x0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <initializer>= 0x1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa0d61f8370cad1d412f80b84d143e1257" prot="public">
+          <name>C</name>
+          <initializer>= 0x2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <initializer>= 0x3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa57cec4137b614c87cb4e24a3d003a3e0" prot="public">
+          <name>Y</name>
+          <initializer>= 0x4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fa21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <initializer>= 0x5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7fadd7536794b63bf90eccfd37f9b147d7f" prot="public">
+          <name>I</name>
+          <initializer>= 0x6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceship_1_1_processor_1_1_v_m_1a66783a363c3b96e295864429c69b2f7faff44570aca8241914870afbc310cdb85" prot="public">
+          <name>J</name>
+          <initializer>= 0x7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Enums.cs" line="13" column="7" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Enums.cs" bodystart="14" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_v_m_1ac8e169c4b90bb2b0e9d8dea076e8c6e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>class ship.Processor.VM.InstructionInfo</definition>
+        <argsstring>(ushort opcode, string mnemonic, ushort a, ushort b)</argsstring>
+        <name>InstructionInfo</name>
+        <qualifiedname>ship.Processor.VM.InstructionInfo</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>opcode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mnemonic</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Enums.cs" line="3" column="1" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Enums.cs" bodystart="3" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceship_1_1_processor_1_1_v_m_1abbe417e5282db8e4778f3053ec631ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>class ship.Processor.VM.HardwareQuery</definition>
+        <argsstring>(uint id, uint manufacturer, ushort version)</argsstring>
+        <name>HardwareQuery</name>
+        <qualifiedname>ship.Processor.VM.HardwareQuery</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>manufacturer</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Hardware.cs" line="3" column="1" bodyfile="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/Hardware.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/DCPU16.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

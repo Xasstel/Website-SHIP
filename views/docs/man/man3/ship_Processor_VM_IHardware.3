@@ -1,0 +1,110 @@
+.TH "ship.Processor.VM.IHardware" 3 "Ship Processor" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ship.Processor.VM.IHardware
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBInit\fP (\fBVMState\fP cpu)"
+.br
+.RI "Runs when the device is first connected\&. "
+.ti -1c
+.RI "HardwareQuery \fBGetHardwareInfo\fP ()"
+.br
+.RI "Returns the hardware information\&. "
+.ti -1c
+.RI "ushort \fBInterrupt\fP (\fBVMState\fP cpu)"
+.br
+.RI "Called when an instruction triggers a hardware interrupt\&. "
+.ti -1c
+.RI "void \fBTick\fP (\fBVMState\fP cpu)"
+.br
+.RI "Runs each time before the processor processes an instruction (pun intended) "
+.ti -1c
+.RI "void \fBCleanup\fP ()"
+.br
+.RI "Should run on processor poweroff or something\&. "
+.ti -1c
+.RI "void \fBMemorySet\fP (ushort addr, ushort val, \fBVMState\fP cpu)"
+.br
+.RI "Called \fBRIGHT BEFORE\fP something is written to memory\&. "
+.ti -1c
+.RI "void \fBReset\fP ()"
+.br
+.RI "Called when the processor's state is reset\&. "
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "HardwareQuery ship\&.Processor\&.VM\&.IHardware\&.GetHardwareInfo ()"
+
+.PP
+Returns the hardware information\&. 
+.PP
+\fBReturns\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "void ship\&.Processor\&.VM\&.IHardware\&.Init (\fBVMState\fP cpu)"
+
+.PP
+Runs when the device is first connected\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcpu\fP CPU pointer
+.RE
+.PP
+
+.SS "ushort ship\&.Processor\&.VM\&.IHardware\&.Interrupt (\fBVMState\fP cpu)"
+
+.PP
+Called when an instruction triggers a hardware interrupt\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcpu\fP CPU Pointer
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The amount of consumed cycles for the operation
+.RE
+.PP
+
+.SS "void ship\&.Processor\&.VM\&.IHardware\&.MemorySet (ushort addr, ushort val, \fBVMState\fP cpu)"
+
+.PP
+Called \fBRIGHT BEFORE\fP something is written to memory\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddr\fP The address to which the value was written
+.br
+\fIval\fP Value which written to the address
+.br
+\fIcpu\fP CPU Pointer
+.RE
+.PP
+
+.SS "void ship\&.Processor\&.VM\&.IHardware\&.Tick (\fBVMState\fP cpu)"
+
+.PP
+Runs each time before the processor processes an instruction (pun intended) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcpu\fP CPU Pointer
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Ship Processor from the source code\&.

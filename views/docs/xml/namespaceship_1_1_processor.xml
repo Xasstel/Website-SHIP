@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceship_1_1_processor" kind="namespace" language="C#">
+    <compoundname>ship::Processor</compoundname>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_compiler">ship::Processor::Compiler</innernamespace>
+    <innernamespace refid="namespaceship_1_1_processor_1_1_v_m">ship::Processor::VM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/Compiler/Assembler.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

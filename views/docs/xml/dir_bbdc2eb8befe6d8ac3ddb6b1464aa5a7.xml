@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_bbdc2eb8befe6d8ac3ddb6b1464aa5a7" kind="dir">
+    <compoundname>C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM</compoundname>
+    <innerfile refid="_d_c_p_u16_8cs">DCPU16.cs</innerfile>
+    <innerfile refid="_enums_8cs">Enums.cs</innerfile>
+    <innerfile refid="_hardware_8cs">Hardware.cs</innerfile>
+    <innerfile refid="_memory_8cs">Memory.cs</innerfile>
+    <innerfile refid="_v_m_state_8cs">VMState.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Downloads/final-project-name-vinogradov-team-feature-invsys/ship.Processor/VM/"/>
+  </compounddef>
+</doxygen>

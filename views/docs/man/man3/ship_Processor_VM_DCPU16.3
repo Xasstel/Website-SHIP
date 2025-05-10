@@ -1,0 +1,64 @@
+.TH "ship.Processor.VM.DCPU16" 3 "Ship Processor" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ship.Processor.VM.DCPU16 \- \fIQuick note: \fB[next word]\fP means you get the address from the next word (i have spent too much time pondering this at 3 AM) \fP  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static string \fBPedanticVariable\fP (\fBVMState\fP cpu, ushort code, bool isA)"
+.br
+.ti -1c
+.RI "static void \fBReset\fP (\fBVMState\fP cpu)"
+.br
+.RI "Resets the processor to its default state\&. "
+.ti -1c
+.RI "static void \fBRegisterHardware\fP (\fBVMState\fP cpu, \fBIHardware\fP hw)"
+.br
+.ti -1c
+.RI "static void \fBQueueInterrupt\fP (\fBVMState\fP cpu, Action< \fBVMState\fP > func)"
+.br
+.RI "The queueInterrupt\&. "
+.ti -1c
+.RI "static uint \fBStep\fP (\fBVMState\fP cpu)"
+.br
+.RI "The Step\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fIQuick note: \fB[next word]\fP means you get the address from the next word (i have spent too much time pondering this at 3 AM) \fP 
+.SH "Member Function Documentation"
+.PP 
+.SS "static void ship\&.Processor\&.VM\&.DCPU16\&.QueueInterrupt (\fBVMState\fP cpu, Action< \fBVMState\fP > func)\fR [static]\fP"
+
+.PP
+The queueInterrupt\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcpu\fP 
+.br
+\fIfunc\fP The funcAction<Processor>
+.RE
+.PP
+
+.SS "static uint ship\&.Processor\&.VM\&.DCPU16\&.Step (\fBVMState\fP cpu)\fR [static]\fP"
+
+.PP
+The Step\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The uint
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Ship Processor from the source code\&.
