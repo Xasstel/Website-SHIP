@@ -1,20 +1,76 @@
 <main>
-    <div class = "patches-title">
-        <strong>Patches in SHIP</strong>
+    <div class = "main-title">
+        <strong>Development changelogs about SHIP</strong>
+        <p class = "main-title-desc">All changelogs were got from Team's GitLab</p>
     </div>
 
     <div class = "main-patches">
 
-        <div class = "patch" id = "patch">
-            <div class="rotate-btn" id="rotate-btn">
-                <input type="image" src="static/img/more.png" alt="more" class="more-button" id="more-button">
+        <div class = "patch">
+            <div class="more-button-container">
+                <input type="image" src="static/img/more.png" alt="more" class="more-button">
+            </div>
+            <div class = "patch-desc">
+                <strong class = "patch-desc-title">Changelog by 09 Mar, 2025</strong>
+                <ul class = "patch-desc-text">
+                    <li>Modified the character controller to have it behave a little more similar to quake</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "patch">
+            <div class="more-button-container">
+                <input type="image" src="static/img/more.png" alt="more" class="more-button">
             </div>
             <div class = "patch-desc" id = "patch-desc">
-                <strong class = "patch-desc-title">1. Adding the SHIP</strong>
-                <p class = "patch-desc-text">
-                    1. Ship was added
-                    2. Penis
-                </p>
+                <strong class = "patch-desc-title">Changelog by 28 Feb, 2025</strong>
+                <ul class = "patch-desc-text">
+                    <li>Added a code editor into the game</li> <br>
+                    <li>Fixed a bug that offsetted label positions (making asm passes basically stateless)</li> <br>
+                    <li>Fixed a bug that put immediate values in reverse order</li> <br>
+                    <li>Added a somewhat basic highlighter</li> <br>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "patch">
+            <div class="more-button-container">
+                <input type="image" src="static/img/more.png" alt="more" class="more-button">
+            </div>
+            <div class = "patch-desc">
+                <strong class = "patch-desc-title">Changelog by 26 Feb, 2025</strong>
+                <ul class = "patch-desc-text">
+                    <li>Bundled decls into a single file: Decls.cs</li> <br>
+                    <li>Separated codegen into passes (IAsmPass-es)</li> <br>
+                    <li>Added support for [register + next word], PICK n/[SP + n]</li> <br>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "patch">
+            <div class="more-button-container">
+                <input type="image" src="static/img/more.png" alt="more" class="more-button">
+            </div>
+            <div class = "patch-desc">
+                <strong class = "patch-desc-title">Changelog by 25 Feb, 2025</strong>
+                <ul class = "patch-desc-text">
+                    <li>Added codegen to assembler</li> <br>
+                    <li>Modified spec to comply with new instruction format</li> <br>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "patch">
+            <div class="more-button-container">
+                <input type="image" src="static/img/more.png" alt="more" class="more-button">
+            </div>
+            <div class = "patch-desc">
+                <strong class = "patch-desc-title">Changelog by 22 Feb, 2025</strong>
+                <ul class = "patch-desc-text">
+                    <li>Scrapped the ANTLR4 assembler lexer & parser.</li> <br>
+                    <li>Added the in-house parser.</li> <br>
+                    <li>Added instructions.toml, a file which will soon store instruction information.</li> <br>
+                </ul>
             </div>
         </div>
 

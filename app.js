@@ -3,6 +3,7 @@ const path = require("path");
 const expressHbs = require("express-handlebars");
 const hbs = require("hbs");
 const app = express();
+const fs = require("fs");
 
 const PORT = 3000;
 
@@ -15,6 +16,7 @@ app.engine("hbs", expressHbs.engine({
 
 app.set("view engine", "hbs");
 app.use("/static", express.static(path.join(__dirname, "public")));
+app.use("/docs", express.static(path.join(__dirname, 'docs/html')))
 
 app.get("/", function(req, res) {
     res.redirect("/about");
@@ -45,18 +47,19 @@ app.get("/downloads/:file", (req, res) => {
     });
 });
 
-app.get("/patches", (req, res)=>{
+app.get("/changelog", (req, res)=>{
     res.render("patches", {
         title: "Patches - SHIP",
         layout: "patches-layout"
     })
 });
 
-app.get("/docs", (req, res)=>{
-    res.render("docs/html/index", {
-        title: "Docs - SHIP",
-        layout: false,
-    })
+app.get('/documentation', (req, res) => {
+    res.render('documentation', {
+        title: 'Документация',
+        docPath: '/docs/index.html',
+        layout: false
+    });
 });
 
 app.listen(PORT, () => {
