@@ -2,8 +2,9 @@ const express = require("express");
 const path = require("path");
 const expressHbs = require("express-handlebars");
 const hbs = require("hbs");
-const app = express();
 const fs = require("fs");
+const app = express();
+
 
 const PORT = 3000;
 
@@ -56,7 +57,7 @@ app.get("/changelog", (req, res)=>{
 
 app.get('/documentation', (req, res) => {
     res.render('documentation', {
-        title: 'Документация',
+        title: 'Documentation',
         docPath: '/docs/index.html',
         layout: false
     });

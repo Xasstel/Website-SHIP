@@ -18,6 +18,10 @@ strong{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ul{
+    width:90%;
+}
+
 .main-title{
     top:25px;
     position:relative;
@@ -46,6 +50,11 @@ strong{
     margin-top:50px;
     border-radius:1.5em;
     display:flex;
+    transition:0.3s all;
+}
+
+.patch:hover{
+    transform:translateY(-3px);
 }
 
 .more-button-container{
@@ -84,4 +93,13 @@ strong{
     font-weight: 600;
     display:none;
     position:absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.month-title{
+    position:relative;
+    display:flex;
+    width:auto;
+    height:50px;
+    top:20px;
 }
